@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
     background-color: #17102a;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     display: flex;
     justify-content: center;
@@ -10,46 +12,56 @@ body {
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 15px;
     text-align: center;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-    width: 400px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    width: 500px;
 }
 
 h1 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #a67ff4;
 }
 
 .script-box {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 8px;
     color: white;
     font-family: monospace;
     overflow: auto;
     word-wrap: break-word;
     text-align: left;
+    font-size: 14px;
 }
 
 button {
     background: #a67ff4;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 12px 25px;
+    border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 button:hover {
     background: #8b5cf6;
+}
+
+button::before {
+    content: "📋";
 }
 
 .note {
@@ -59,15 +71,15 @@ button:hover {
 }
 
 .social-link {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .social-link img {
-    width: 20px;
-    margin-right: 5px;
+    width: 22px;
+    margin-right: 6px;
 }
 
 .social-link span {
